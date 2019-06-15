@@ -1,0 +1,63 @@
+body {
+  /* background-image: url('/img/img_header.jpg'); */
+  background-attachment: fixed;
+  padding-top: 70px;
+}
+
+.jumbotron {
+  background-color:transparent !important; 
+}
+
+
+.deleteNote {
+display: inline-block;
+}
+
+.previousNotes {
+  display: inline-block;
+  width: 90%
+}
+
+#scrape {
+  margin: 8px 0px;
+}
+
+
+
+
+
+/* 
+main {
+  height: 1000px;
+  text-align: center;
+  color: white;
+  background-image: url("/public/img/img_header.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 100px;
+  padding-top: 80px;
+  -webkit-text-stroke: 3px rgb(77, 34, 34);
+}
+
+h4 {
+  margin: 20px;
+  margin-bottom: 40px;
+}
+
+form {
+  display: inline-block;
+  justify-content:center;
+}
+
+.wrapper {
+  margin-top: 100px;
+}
+
+.list-group {
+  margin: 10px;
+} */
