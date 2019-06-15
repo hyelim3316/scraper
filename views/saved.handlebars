@@ -12,11 +12,11 @@
             {{#each article}}
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4>{{this.title}}</h4>
+                    <a href="https://www.nytimes.com{{this.link}}" target="_blank"><h4>{{this.title}}</h4></a>
                     </div>
                     <div class="panel-body">
                         <p> {{this.summary}}</p>
-                        <a href={{this.link}} target="_blank">{{this.link}}</a>
+                        <img src={{this.img}}>
                         <br><br>
                         <button type="button" class="btn btn-default addNote" data-toggle="modal" data-target="#noteModal{{this._id}}" data-id={{this._id}}>Add a Note</button>
                         <button type="button" class="btn btn-primary delete" data-id={{this._id}}>Delete</button>
@@ -34,6 +34,6 @@
 </div>
 
 <!--Clicked Notes Modal-->
-{{#each article}}
+{{!-- {{#each article}}
     {{> notes-modal }}
-{{/each}}
+{{/each}} --}}
