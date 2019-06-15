@@ -1,11 +1,12 @@
 body {
-  /* background-image: url('/img/img_header.jpg'); */
+  background-image: url('/img/img_header2.jpg');
   background-attachment: fixed;
   padding-top: 70px;
 }
 
 .jumbotron {
   background-color:transparent !important; 
+  -webkit-text-stroke: 0.8px lightgray;
 }
 
 
